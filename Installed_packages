@@ -1,0 +1,14 @@
+pip install langchain-ollama
+pip install --upgrade langchain langchain-core
+pip install wikipedia
+pip install -U langchain-community
+pip install pymupdf - pypdf
+
+ollama pull nomic-embed-text - for RAG
+ollama pull mxbai-embed-large  - for RAG
+
+________________________________________________________
+Lang Graph packages
+
+python -m pip install langgraph
+pip install -U langchain-ollama  - For chat ollama
